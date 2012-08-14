@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">FragmentsTestbed</string>
+    <string name="streaming_activity_name">Streaming Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_fragments_main">FragmentsMainActivity</string>
+
+        <!-- Values -->
+    <string name="gyro">Gyro:</string>
+    <string name="imu">IMU:</string>
+    <string name="accelerometer">Accelerometer:</string>
+    <string name="filtered">Filtered:</string>
+    <string name="raw">Raw:</string>
+    <string name="x_label">X:</string>
+    <string name="y_label">Y:</string>
+    <string name="z_label">Z:</string>
+    
+    
+</resources>

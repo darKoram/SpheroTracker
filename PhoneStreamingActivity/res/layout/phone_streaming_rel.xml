@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:screenOrientation="landscape"
+    >
+      	<!-- the fake surface view has to start on top in order for the
+		preview to start correctly.  Not needed.  This was a workaround from
+		the folks i got the idea for doing this from. 
+   <SurfaceView android:id="@+id/fakeCameraView"
+                               android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" /> -->
+
+   <!-- the actual opencv drawing class -->
+   <kesten.testbed.phonestreamingactivity.ColorBlobDetectionView
+                    android:id="@+id/cvsurface"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" /> 
+
+    <RelativeLayout
+        android:id="@+id/row_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/left_text_frame"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingLeft="@dimen/left_col_left_pad"
+                android:paddingTop="@dimen/left_col_pad" >
+
+                <TextView
+                    android:id="@+id/accelerometer_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accelerometer" 
+                    android:layout_alignTop="@+id/left_text_frame"/>
+
+                <TextView
+                    android:id="@+id/x_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/accelerometer_label"
+                    android:text="x" />
+
+                <TextView
+                    android:id="@+id/y_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/x_label"
+                    android:text="y" />
+
+                <TextView
+                    android:id="@+id/z_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/y_label"
+                    android:text="z" />
+
+                <TextView
+                    android:id="@+id/gyroscope_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/z_label"
+                    android:text="Gyroscope" />
+
+                <TextView
+                    android:id="@+id/a_label"
+                    android:layout_width="13dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_below="@+id/gyroscope_label"
+                    android:text="x" />
+
+                <TextView
+                    android:id="@+id/b_label"
+                    android:layout_width="13dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/a_label"
+                    android:ems="10"
+                    android:text="y" />
+
+                <TextView
+                    android:id="@+id/c_label"
+                    android:layout_width="13dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/b_label"
+                    android:ems="10"
+                    android:text="z" />
+
+                <TextView
+                    android:id="@+id/attitude_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/c_label"
+                    android:text="Attitude" />
+
+                <TextView
+                    android:id="@+id/e_label"
+                    android:layout_width="16dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/attitude_label"
+                    android:ems="10"
+                    android:text="x" />
+
+                <TextView
+                    android:id="@+id/f_label"
+                    android:layout_width="13dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/e_label"
+                    android:ems="10"
+                    android:text="y" />
+
+                <TextView
+                    android:id="@+id/g_label"
+                    android:layout_width="14dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/f_label"
+                    android:ems="10"
+                    android:text="z" />
+            </RelativeLayout>
+        </ScrollView>
+
+        <ScrollView 
+            android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true" >
+        	    
+            	<!--  looks like you can only reference id's within current relative layout -->
+
+        	    <RelativeLayout
+        	        android:id="@+id/right_text_frame"
+        	        android:layout_width="wrap_content"
+        	        android:layout_height="wrap_content"
+        	        android:layout_gravity="top"
+        	        android:paddingRight="@dimen/right_col_right_pad"
+        	        android:paddingTop="@dimen/right_col_pad" >
+		
+		            <TextView
+		                android:id="@+id/right_text_title"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="OpenCV Measured" />
+		
+		            <TextView
+		                android:id="@+id/world_origin"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_below="@+id/right_text_title"
+		                android:text="World Origin" />
+		
+		            <TextView
+		                android:id="@+id/phone_position"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+                    	android:layout_below="@+id/world_origin"
+                    	android:text="Position" />
+	        </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</FrameLayout>

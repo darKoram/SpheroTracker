@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left_col_pad">10dp</dimen>
+    <dimen name="right_col_pad">10dp</dimen>
+    <dimen name="left_col_left_pad">5dp</dimen>
+    <dimen name="right_col_right_pad">5dp</dimen>
+</resources>
