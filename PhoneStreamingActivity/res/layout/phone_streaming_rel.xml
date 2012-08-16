@@ -12,7 +12,7 @@
                                 android:layout_height="wrap_content" /> -->
 
    <!-- the actual opencv drawing class -->
-   <kesten.testbed.phonestreamingactivity.ColorBlobDetectionView
+   <org.krobo.lips.core.ColorBlobDetectionView
                     android:id="@+id/cvsurface"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" /> 

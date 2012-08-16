@@ -2,9 +2,8 @@ import java.util.List;
 
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
-import android.telephony.PhoneStateListener;
 import junit.framework.TestCase;
-import kesten.testbed.phonestreamingactivity.PhoneStreamingActivity;
+import org.krobo.phonestreamingactivity.PhoneStreamingActivity;
 
 /**
  * 

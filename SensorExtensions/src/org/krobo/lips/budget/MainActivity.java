@@ -1,6 +1,6 @@
 package org.krobo.lips.budget;
 
-import com.example.sensorextensions.R;
+import org.krobo.lips.R;
 
 import android.os.Bundle;
 import android.app.Activity;

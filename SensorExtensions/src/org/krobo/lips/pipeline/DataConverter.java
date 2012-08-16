@@ -1,6 +1,6 @@
 package org.krobo.lips.pipeline;
 
-import org.krobo.hips.kinematicbody.sptMotionState;
+//import org.krobo.hips.kinematicbody.sptMotionState;
 
 import org.opencv.core.*;
 import org.opencv.video.Video;
@@ -85,7 +85,7 @@ public class DataConverter {
 	/* MotionState is position, momentum and more complex motion attributes */
 	//private MotionState				mMotionState;
 	/* Camera can be mobile device, or other camera.  Model includes distortions calculated in calib3d */
-	private sptMotionState				mMotionState;
+	//private sptMotionState				mMotionState;
 	private Mat							mMotionHistoryImage;
 	private Mat							mSilhouette;
 	private Mat							mMask;
@@ -124,18 +124,18 @@ public class DataConverter {
 	}
 	
 	private void				UpdateMotionState() {
-		Video.updateMotionHistory(mSilhouette, mMotionHistoryImage, mTimeStamp, mMaxDuration);
-		Video.calcMotionGradient(mMotionHistoryImage, mMask, mMotionState.sptGetOrientation(), mDelta1, mDelta2);
+		//Video.updateMotionHistory(mSilhouette, mMotionHistoryImage, mTimeStamp, mMaxDuration);
+		//Video.calcMotionGradient(mMotionHistoryImage, mMask, mMotionState.sptGetOrientation(), mDelta1, mDelta2);
 	}
 	
 	public void					sptUpdate() {
 		
 		
 	}
-	
+	/*
 	public sptMotionState	sptGetMotionState() {
 		return mMotionState;
 		
 	}
-
+*/
 }

@@ -10,6 +10,7 @@ import org.opencv.highgui.Highgui;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.util.AttributeSet;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -20,14 +21,21 @@ public abstract class SampleCvViewBase extends SurfaceView implements SurfaceHol
     private SurfaceHolder       mHolder;
     private VideoCapture        mCamera;
 
-    public SampleCvViewBase(Context context) {
-        super(context);
+    public SampleCvViewBase(Context context, AttributeSet attrs) {
+        super(context, attrs);
         mHolder = getHolder();
         mHolder.addCallback(this);
         Log.i(TAG, "Instantiated new " + this.getClass());
     }
 
-    public boolean openCamera() {
+    public SampleCvViewBase(Context context) {
+        super(context);
+        mHolder = getHolder();
+        mHolder.addCallback(this);
+        Log.i(TAG, "Instantiated new " + this.getClass());
+	}
+
+	public boolean openCamera() {
         Log.i(TAG, "openCamera");
         synchronized (this) {
 	        releaseCamera();

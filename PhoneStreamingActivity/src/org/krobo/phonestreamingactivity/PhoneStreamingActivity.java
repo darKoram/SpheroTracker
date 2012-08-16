@@ -1,7 +1,8 @@
-package kesten.testbed.phonestreamingactivity;
+package org.krobo.phonestreamingactivity;
 
 import java.util.List;
 
+import org.krobo.lips.core.ColorBlobDetectionView;
 import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
@@ -53,7 +54,7 @@ public class PhoneStreamingActivity extends Activity implements SensorEventListe
 							AlertDialog ad = new AlertDialog.Builder(mAppContext).create();
 							ad.setCancelable(false); // This blocks the 'BACK' button
 							ad.setMessage("Fatal error: can't open camera!");
-							ad.setButton("OK", new DialogInterface.OnClickListener() {
+							ad.setButton(DialogInterface.BUTTON_POSITIVE, "OK", new DialogInterface.OnClickListener() {
 							    public void onClick(DialogInterface dialog, int which) {
 								dialog.dismiss();
 								finish();
@@ -126,7 +127,7 @@ public class PhoneStreamingActivity extends Activity implements SensorEventListe
 				AlertDialog ad = new AlertDialog.Builder(this).create();
 				ad.setCancelable(false); // This blocks the 'BACK' button
 				ad.setMessage("Fatal error: can't open camera!");
-				ad.setButton("OK", new DialogInterface.OnClickListener() {
+				ad.setButton(DialogInterface.BUTTON_POSITIVE, "OK", new DialogInterface.OnClickListener() {
 				    public void onClick(DialogInterface dialog, int which) {
 					dialog.dismiss();
 					finish();
@@ -139,7 +140,7 @@ public class PhoneStreamingActivity extends Activity implements SensorEventListe
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
     	super.onConfigurationChanged(newConfig);
-    	setContentView(R.layout.activity_phone_streaming);
+    	setContentView(R.layout.phone_streaming_rel);
     }
     
     public void onAccuracyChanged(Sensor sensor, int accuracy) {

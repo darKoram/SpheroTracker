@@ -1,14 +1,13 @@
-package kesten.testbed.phonestreamingactivity;
+package org.krobo.phonestreamingactivity;
 
 import java.util.EnumSet;
 import java.util.List;
 
-import org.krobo.lips.core.HasSize;
-import org.krobo.lips.signal.IndexedSensor;
-import org.krobo.lips.signal.SensorDataQueue;
-import org.krobo.lips.signal.SignalManager;
+import org.krobo.lips.*;
+import org.krobo.lips.core.*;
+import org.krobo.lips.signal.*;
 
-import com.orbotix.streamingexample.SpheroSignalManager.SpheroSensor;
+
 
 import android.hardware.Sensor;
 import android.hardware.SensorManager;

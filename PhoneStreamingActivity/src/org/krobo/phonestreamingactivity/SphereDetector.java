@@ -1,4 +1,4 @@
-package kesten.testbed.phonestreamingactivity;
+package org.krobo.phonestreamingactivity;
 
 import org.opencv.core.*;
 import java.util.List;

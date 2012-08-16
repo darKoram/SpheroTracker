@@ -15,11 +15,13 @@ import org.opencv.imgproc.Imgproc;
 
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.View;
 import android.view.View.OnTouchListener;
+import android.widget.TextView;
 
 public class ColorBlobDetectionView extends SampleCvViewBase implements OnTouchListener {
 
@@ -38,11 +40,17 @@ public class ColorBlobDetectionView extends SampleCvViewBase implements OnTouchL
 	private static final Scalar CONTOUR_COLOR = new Scalar(255,0,0,255);
 	
 	
-	public ColorBlobDetectionView(Context context)
-	{
-        super(context);
+public ColorBlobDetectionView(Context context, AttributeSet attrs)
+{
+        super(context, attrs);
         setOnTouchListener(this);
-	}
+}
+
+public ColorBlobDetectionView(Context context) 
+{
+	super(context);
+	setOnTouchListener(this);
+}
 	
     @Override
     public void surfaceCreated(SurfaceHolder holder) {
@@ -156,4 +164,8 @@ public class ColorBlobDetectionView extends SampleCvViewBase implements OnTouchL
             mRgba = null;
         }
     }
+    
+    public void setTextView(TextView tv, String str){
+        tv.setText(str);
+       }
 }

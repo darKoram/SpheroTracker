@@ -28,19 +28,22 @@
 	*          : along with this program.  If not, see ;http://www.gnu.org/licenses/;        *
 	**************************************************************************************** */
 
-	#include /usr/local/include/opencv/cvaux.h
-	#include opencv/highgui.h
-	#include opencv/cxcore.h
-	#include stdio.h
-	#include stdio.h
-	#include stdlib.h
-	#include string.h
-	#include assert.h
-	#include math.h
-	#include float.h
-	#include limits.h
-	#include time.h
-	#include ctype.h
+
+
+
+	#include "/usr/local/include/opencv/cvaux.h"
+	#include "/usr/local/include/opencv/highgui.h"
+	#include "/usr/local/include/opencv//cxcore.h"
+	#include "stdio.h"
+	#include "stdio.h"
+	#include "stdlib.h"
+	#include "string.h"
+	#include "assert.h"
+	#include "math.h"
+	#include "float.h"
+	#include "limits.h"
+	#include "time.h"
+	#include "ctype.h"
 	
 	int CvHoughCircles()
 	{
@@ -50,14 +53,14 @@
 	    CvCapture* capture = cvCaptureFromCAM( 0 );
 	    if( !capture )
 	    {
-	            fprintf( stderr, ERROR: capture is NULL \n );
+	            fprintf( stderr, "ERROR: capture is NULL \n" );
 	            getchar();
 	            return -1;
 	    }
 	    // Create a window in which the captured images will be presented
-	    cvNamedWindow( Camera, CV_WINDOW_AUTOSIZE );
-	    cvNamedWindow( HSV, CV_WINDOW_AUTOSIZE );
-	    cvNamedWindow( EdgeDetection, CV_WINDOW_AUTOSIZE );
+	    cvNamedWindow( "Camera", CV_WINDOW_AUTOSIZE );
+	    cvNamedWindow( "HSV", CV_WINDOW_AUTOSIZE );
+	    cvNamedWindow( "EdgeDetection", CV_WINDOW_AUTOSIZE );
 	    // Detect a red ball
 	    CvScalar hsv_min = cvScalar(150, 84, 130, 0);
 	    CvScalar hsv_max = cvScalar(358, 256, 255, 0);
@@ -69,7 +72,7 @@
 	        IplImage* frame = cvQueryFrame( capture );
 	        if( !frame )
 	        {
-	                fprintf( stderr, ERROR: frame is null...\n );
+	                fprintf( stderr, "ERROR: frame is null...\n" );
 	                getchar();
 	                break;
 	        }
@@ -82,28 +85,27 @@
 	        // hough detector works better with some smoothing of the image
 	        cvSmooth( thresholded, thresholded, CV_GAUSSIAN, 9, 9 );
 	        CvSeq* circles = cvHoughCircles(thresholded, storage, CV_HOUGH_GRADIENT, 2,
-	                                        thresholded.height/4, 100, 50, 10, 400);
-	        for (int i = 0; i < circles.total; i++)
+	                                        thresholded->height/4, 100, 50, 10, 400);
+	        for (int i = 0; i < circles->total; i++)
 	        {
 	            float* p = (float*)cvGetSeqElem( circles, i );
-	            printf(x=%f y=%f r=%f\n\r;,p[0],p[1],p[2] );
+	            printf("Ball! x=%f y=%f r=%f\n\r", p[0],p[1],p[2] );
 	            cvCircle( frame, cvPoint(cvRound(p[0]),cvRound(p[1])),
 	                                    3, CV_RGB(0,255,0), -1, 8, 0 );
 	            cvCircle( frame, cvPoint(cvRound(p[0]),cvRound(p[1])),
 	                                    cvRound(p[2]), CV_RGB(255,0,0), 3, 8, 0 );
 	        }
-	        cvShowImage( Camera, frame ); // Original stream with detected ball overlay
-	        cvShowImage( HSV, hsv_frame); // Original stream in the HSV color space
-	        cvShowImage( myWindow, thresholded ); // The stream after color filtering
-	        cvReleaseMemStorage(storage);
+	        cvShowImage( "Camera", frame ); // Original stream with detected ball overlay
+	        cvShowImage( "HSV", hsv_frame); // Original stream in the HSV color space
+	        cvShowImage( "After Color Filtering", thresholded ); // The stream after color filtering
+	        cvReleaseMemStorage(&storage);
 	        // Do not release the frame!
 	        //If ESC key pressed, Key=0x10001B under OpenCV 0.9.7(linux version),
 	        //remove higher bits using AND operator
-	        if( (cvWaitKey(10) ; 255) == 27 ) break;
+	        if( (cvWaitKey(10) & 255) == 27 ) break;
 	    }
 	     // Release the capture device housekeeping
-	     cvReleaseCapture( capture );
-	     cvDestroyWindow( myWindow );
+	     cvReleaseCapture( &capture );
+	     cvDestroyWindow( "After Color Filtering" );
 	     return 0;
 	   }
-}

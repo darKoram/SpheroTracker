@@ -9,12 +9,12 @@ import org.opencv.highgui.VideoCapture;
 
 import org.krobo.lips.signal.*;
 import org.krobo.lips.core.*;
-import org.krobo.lips.pipeline.*;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.util.AttributeSet;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.content.Context;
@@ -27,12 +27,17 @@ public class DataDisplayView extends SampleCvViewBase {
 	SurfaceHolder 	mHolder;
 	Mat 			mRgba;
 	
+	public DataDisplayView(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		init(context);
+        Log.i(TAG, "Constructing new DataDisplayView" + this.getClass());
+	}
+	
 	public DataDisplayView(Context context) {
 		super(context);
 		init(context);
         Log.i(TAG, "Constructing new DataDisplayView" + this.getClass());
 	}
-	
 	public void init(Context context) {
 		mPaint = new Paint();
 		mPaint.setColor(Color.BLUE);

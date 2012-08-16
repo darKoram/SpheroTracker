@@ -8,6 +8,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include obj/local/armeabi/objs/native_sample/subdir.mk
 -include jni/subdir.mk
 -include subdir.mk
 -include objects.mk
@@ -44,7 +45,7 @@ all: PhoneStreamingActivity
 PhoneStreamingActivity: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross G++ Linker'
-	g++  -o "PhoneStreamingActivity" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L/home/kesten/android-ndk-r8/platforms/android-9/arch-arm/usr/lib -o "PhoneStreamingActivity" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
