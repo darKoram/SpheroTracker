@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map
+END
+AbstractReferenceMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/AbstractReferenceMap.java
+END
+TransformedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/751903/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/TransformedMap.java
+END
+MultiValueMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/MultiValueMap.java
+END
+AbstractSortedMapDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/AbstractSortedMapDecorator.java
+END
+IdentityMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/IdentityMap.java
+END
+AbstractLinkedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/AbstractLinkedMap.java
+END
+FixedSizeMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/FixedSizeMap.java
+END
+HashedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/HashedMap.java
+END
+DefaultedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/DefaultedMap.java
+END
+UnmodifiableEntrySet.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/UnmodifiableEntrySet.java
+END
+LazySortedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/LazySortedMap.java
+END
+SingletonMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/SingletonMap.java
+END
+LRUMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/LRUMap.java
+END
+CompositeMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/814044/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/CompositeMap.java
+END
+MultiKeyMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/MultiKeyMap.java
+END
+Flat3Map.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/Flat3Map.java
+END
+AbstractIterableMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/AbstractIterableMap.java
+END
+LazyMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/LazyMap.java
+END
+UnmodifiableSortedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/UnmodifiableSortedMap.java
+END
+AbstractHashedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/AbstractHashedMap.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/740367/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/package.html
+END
+ListOrderedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/ListOrderedMap.java
+END
+StaticBucketMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/StaticBucketMap.java
+END
+PredicatedSortedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/PredicatedSortedMap.java
+END
+EntrySetToMapIteratorAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/EntrySetToMapIteratorAdapter.java
+END
+CaseInsensitiveMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/CaseInsensitiveMap.java
+END
+AbstractInputCheckedMapDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/AbstractInputCheckedMapDecorator.java
+END
+ReferenceMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/ReferenceMap.java
+END
+UnmodifiableMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/UnmodifiableMap.java
+END
+UnmodifiableOrderedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/UnmodifiableOrderedMap.java
+END
+PredicatedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/PredicatedMap.java
+END
+TransformedSortedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/TransformedSortedMap.java
+END
+AbstractMapDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/AbstractMapDecorator.java
+END
+LinkedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/LinkedMap.java
+END
+ReferenceIdentityMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/ReferenceIdentityMap.java
+END
+FixedSizeSortedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/FixedSizeSortedMap.java
+END
+AbstractOrderedMapDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/map/AbstractOrderedMapDecorator.java
+END

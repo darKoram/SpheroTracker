@@ -23,20 +23,20 @@ public final class R {
     public static final class id {
         public static final int a_label=0x7f090008;
         public static final int accelerometer_label=0x7f090003;
-        public static final int attitude_label=0x7f09000b;
         public static final int b_label=0x7f090009;
         public static final int c_label=0x7f09000a;
         public static final int cvsurface=0x7f090000;
-        public static final int e_label=0x7f09000c;
-        public static final int f_label=0x7f09000d;
-        public static final int g_label=0x7f09000e;
         public static final int gyroscope_label=0x7f090007;
         public static final int left_text_frame=0x7f090002;
+        public static final int meanTimeStep_label=0x7f09000d;
         public static final int menu_settings=0x7f090013;
         public static final int phone_position=0x7f090012;
         public static final int right_text_frame=0x7f09000f;
         public static final int right_text_title=0x7f090010;
         public static final int row_layout=0x7f090001;
+        public static final int time_label=0x7f09000b;
+        public static final int timestamp_label=0x7f09000c;
+        public static final int varianceTimeStep_label=0x7f09000e;
         public static final int world_origin=0x7f090011;
         public static final int x_label=0x7f090004;
         public static final int y_label=0x7f090005;

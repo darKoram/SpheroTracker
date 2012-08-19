@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/comparators
+END
+ComparableComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/comparators/ComparableComparator.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/740367/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/comparators/package.html
+END
+TransformingComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/comparators/TransformingComparator.java
+END
+NullComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/comparators/NullComparator.java
+END
+FixedOrderComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/comparators/FixedOrderComparator.java
+END
+ReverseComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/comparators/ReverseComparator.java
+END
+BooleanComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/comparators/BooleanComparator.java
+END
+ComparatorChain.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/comparators/ComparatorChain.java
+END

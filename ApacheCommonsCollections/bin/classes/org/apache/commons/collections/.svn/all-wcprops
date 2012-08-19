@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections
+END
+SortedBag.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/SortedBag.java
+END
+BagUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/BagUtils.java
+END
+CollectionUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/asf/!svn/ver/814063/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/CollectionUtils.java
+END
+Closure.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/Closure.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/740367/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/package.html
+END
+PredicateUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/asf/!svn/ver/814050/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/PredicateUtils.java
+END
+TransformerUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/TransformerUtils.java
+END
+KeyValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/KeyValue.java
+END
+SortedBidiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/SortedBidiMap.java
+END
+MultiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/MultiMap.java
+END
+FactoryUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/FactoryUtils.java
+END
+ComparatorUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/ComparatorUtils.java
+END
+Bag.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/Bag.java
+END
+overview.html
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/740367/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/overview.html
+END
+BufferUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/BufferUtils.java
+END
+ListUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/ListUtils.java
+END
+ClosureUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/ClosureUtils.java
+END
+OrderedIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/asf/!svn/ver/751849/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/OrderedIterator.java
+END
+MapUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/751887/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/MapUtils.java
+END
+ResettableListIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/ResettableListIterator.java
+END
+ArrayStack.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/ArrayStack.java
+END
+ResettableIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/ResettableIterator.java
+END
+BidiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/BidiMap.java
+END
+IterableSortedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/IterableSortedMap.java
+END
+Factory.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/Factory.java
+END
+EnumerationUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/EnumerationUtils.java
+END
+Put.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/Put.java
+END
+Buffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/Buffer.java
+END
+OrderedBidiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/OrderedBidiMap.java
+END
+IteratorUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repos/asf/!svn/ver/753392/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/IteratorUtils.java
+END
+BufferOverflowException.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/BufferOverflowException.java
+END
+SetUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/SetUtils.java
+END
+ExtendedProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/ExtendedProperties.java
+END
+BufferUnderflowException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/BufferUnderflowException.java
+END
+BoundedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/BoundedMap.java
+END
+Get.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/Get.java
+END
+OrderedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/OrderedMap.java
+END
+IterableMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/IterableMap.java
+END
+MapIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/MapIterator.java
+END
+IterableGet.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/IterableGet.java
+END
+IndexedCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/asf/!svn/ver/814050/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/IndexedCollection.java
+END
+BoundedCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/BoundedCollection.java
+END
+OrderedMapIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/OrderedMapIterator.java
+END
+Unmodifiable.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/Unmodifiable.java
+END
+FunctorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/FunctorException.java
+END
+Predicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/Predicate.java
+END
+Transformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/Transformer.java
+END

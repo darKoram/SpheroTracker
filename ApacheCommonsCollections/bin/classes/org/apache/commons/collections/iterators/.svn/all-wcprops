@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators
+END
+EmptyMapIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/EmptyMapIterator.java
+END
+UnmodifiableMapIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/UnmodifiableMapIterator.java
+END
+LoopingListIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/LoopingListIterator.java
+END
+ReverseListIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/ReverseListIterator.java
+END
+LoopingIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/LoopingIterator.java
+END
+AbstractOrderedMapIteratorDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/AbstractOrderedMapIteratorDecorator.java
+END
+ArrayListIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/ArrayListIterator.java
+END
+TransformIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/TransformIterator.java
+END
+UniqueFilterIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/UniqueFilterIterator.java
+END
+ArrayIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/ArrayIterator.java
+END
+AbstractUntypedIteratorDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/AbstractUntypedIteratorDecorator.java
+END
+AbstractEmptyMapIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/AbstractEmptyMapIterator.java
+END
+FilterListIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/FilterListIterator.java
+END
+FilterIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/FilterIterator.java
+END
+ObjectGraphIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java
+END
+EmptyListIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/EmptyListIterator.java
+END
+UnmodifiableListIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/UnmodifiableListIterator.java
+END
+SingletonListIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/SingletonListIterator.java
+END
+EmptyIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/EmptyIterator.java
+END
+UnmodifiableIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/UnmodifiableIterator.java
+END
+ObjectArrayListIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/ObjectArrayListIterator.java
+END
+EmptyOrderedMapIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/EmptyOrderedMapIterator.java
+END
+UnmodifiableOrderedMapIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/UnmodifiableOrderedMapIterator.java
+END
+SingletonIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/SingletonIterator.java
+END
+AbstractListIteratorDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/AbstractListIteratorDecorator.java
+END
+EmptyOrderedIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/EmptyOrderedIterator.java
+END
+AbstractMapIteratorDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/AbstractMapIteratorDecorator.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/asf/!svn/ver/740367/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/package.html
+END
+ObjectArrayIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/ObjectArrayIterator.java
+END
+AbstractIteratorDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/AbstractIteratorDecorator.java
+END
+EntrySetMapIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/EntrySetMapIterator.java
+END
+ListIteratorWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/ListIteratorWrapper.java
+END
+CollatingIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/CollatingIterator.java
+END
+IteratorChain.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/IteratorChain.java
+END
+AbstractEmptyIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/AbstractEmptyIterator.java
+END
+IteratorEnumeration.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/IteratorEnumeration.java
+END
+EnumerationIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/iterators/EnumerationIterator.java
+END

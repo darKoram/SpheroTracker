@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set
+END
+PredicatedSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set/PredicatedSet.java
+END
+TransformedSortedSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set/TransformedSortedSet.java
+END
+AbstractSetDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set/AbstractSetDecorator.java
+END
+MapBackedSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set/MapBackedSet.java
+END
+UnmodifiableSortedSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set/UnmodifiableSortedSet.java
+END
+SynchronizedSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set/SynchronizedSet.java
+END
+ListOrderedSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/751869/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set/ListOrderedSet.java
+END
+TransformedSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set/TransformedSet.java
+END
+PredicatedSortedSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set/PredicatedSortedSet.java
+END
+AbstractSortedSetDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set/AbstractSortedSetDecorator.java
+END
+AbstractSerializableSetDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set/AbstractSerializableSetDecorator.java
+END
+UnmodifiableSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set/UnmodifiableSet.java
+END
+SynchronizedSortedSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set/SynchronizedSortedSet.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/asf/!svn/ver/740367/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set/package.html
+END
+CompositeSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/set/CompositeSet.java
+END

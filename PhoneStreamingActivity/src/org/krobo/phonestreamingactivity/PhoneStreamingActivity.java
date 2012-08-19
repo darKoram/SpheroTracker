@@ -3,9 +3,13 @@ package org.krobo.phonestreamingactivity;
 import java.util.List;
 
 import org.krobo.lips.core.ColorBlobDetectionView;
+import org.krobo.lips.utils.StreamingStats;
+
+import org.krobo.phonestreamingactivity.PhoneSignalManager.PhoneSensor;
 import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
+
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -23,20 +27,20 @@ import android.widget.TextView;
 
 public class PhoneStreamingActivity extends Activity implements SensorEventListener {
     
-	public SensorManager mSensorManager;
-	public List<Sensor> mAvailableSensorList;
-	public List<Sensor> mActiveSensorList;
+	public PhoneSignalManager mSignalManager;
     private Sensor mAccelerometer;
     private Sensor mGyroscope;
 	private static final String TAG = "PhoneStreaming";
 	private ColorBlobDetectionView mColorBlobView;
+	private StreamingStats mStreamingStats;
+	private double mTime;
+	private boolean mFirstFlag;
 
     
 
     public PhoneStreamingActivity() {
     }
 
-	
 	   private BaseLoaderCallback  mOpenCVCallBack = new BaseLoaderCallback(this) {
 	    	@Override
 	    	public void onManagerConnected(int status) {
@@ -75,7 +79,8 @@ public class PhoneStreamingActivity extends Activity implements SensorEventListe
 	    public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
 	        //setContentView(R.layout.activity_phone_streaming);
-
+        	mTime = 0;
+        	mFirstFlag = true;
 
 	        Log.i(TAG, "Trying to load OpenCV library");
 	        if (!OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_2_4_2, this, mOpenCVCallBack))
@@ -83,37 +88,27 @@ public class PhoneStreamingActivity extends Activity implements SensorEventListe
 	        	Log.e(TAG, "Cannot connect to OpenCV Manager");
 	        }
 	        
-	        mSensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
-	        if(mSensorManager == null) {
+			SensorManager sensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
+	        if(sensorManager == null) {
 	        	Log.i("Phone Streaming ", "Unable to get Sensor Manager");
 	        	throw new ExceptionInInitializerError() ; 
 	        }
-		    mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
-		   
-		    mGyroscope = mSensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
+	        mSignalManager = new PhoneSignalManager(sensorManager);
+		    mAccelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+		    mStreamingStats = new StreamingStats();
+		    
+		    mGyroscope = sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
 		    if (mGyroscope==null)
 		    {
 		    	Log.i(TAG, "No Gyroscope sensor");
 		    }
-		    mAvailableSensorList = mSensorManager.getSensorList(Sensor.TYPE_ALL);
-		    
-		    String str = "Available sensors";
-		    Integer i=0;
-		    for (Sensor s : mAvailableSensorList) {
-		    	i++; 
-		    	str += i.toString() + " " + s.getName();
-		    }
-		    System.out.println(str);
-	        requestWindowFeature(Window.FEATURE_NO_TITLE);
 
-	        
-
-
+	        requestWindowFeature(Window.FEATURE_NO_TITLE);        
 	    }
 	    
 	    protected void onPause() {
 	        super.onPause();
-	        mSensorManager.unregisterListener(this);
+	        mSignalManager.getSensorManager().unregisterListener(this);
 	    	if (null != mColorBlobView)
 				mColorBlobView.releaseCamera();
 		}
@@ -121,7 +116,7 @@ public class PhoneStreamingActivity extends Activity implements SensorEventListe
 	    protected void onResume() {
 	        super.onResume();
 	        Log.i(TAG, "On Resume");
-	        mSensorManager.registerListener(this, mAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
+	        mSignalManager.getSensorManager().registerListener(this, mAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
 	        
 			if( (null != mColorBlobView) && !mColorBlobView.openCamera() ) {
 				AlertDialog ad = new AlertDialog.Builder(this).create();
@@ -144,17 +139,53 @@ public class PhoneStreamingActivity extends Activity implements SensorEventListe
     }
     
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
+
     }
 
     public void onSensorChanged(SensorEvent event) {
-    	Float x = event.values[0];
-    	Float y = event.values[1];
-    	Float z = event.values[2];
+    	
     	String str = "";
     	TextView tv = null;
     	
+    	mSignalManager.updateSensor(event);
+    	
+    	double timestamp = event.timestamp;
+    	// convert from nanoseconds to microseconds
+    	timestamp /= 1000000;
+
+    	
+    	if (mFirstFlag) {
+    		mFirstFlag = false;
+        	mTime = timestamp;
+    	}
+    	else {    		
+	    	double timeStep = timestamp - mTime;
+	    	mTime = timestamp;
+	    	Log.i(TAG, "timeStep: " + timeStep);
+	    	mStreamingStats.updateMeanAndVariance(timeStep);
+	
+	    	if ( mColorBlobView != null)  {
+				str = "time: " + mStreamingStats.mSum;
+				tv = (TextView) findViewById(R.id.timestamp_label);
+				mColorBlobView.setTextView(tv, str);
+				str = "mean time step: " + mStreamingStats.mMean;
+				tv = (TextView) findViewById(R.id.meanTimeStep_label);
+				mColorBlobView.setTextView(tv, str);
+				str = "variance of time steps: " + mStreamingStats.mVariance;
+				tv = (TextView) findViewById(R.id.varianceTimeStep_label);
+				mColorBlobView.setTextView(tv, str);
+			}
+	    }
+    	
+    	Float x = event.values[0];
+    	Float y = event.values[1];
+    	Float z = event.values[2];
+
+    	
     	// TODO avoid findViewByID by caching these values locally since we're streaming
-    	if(event.sensor == mAccelerometer && ( mColorBlobView != null) ) {
+    	if(event.sensor.getType() == PhoneSensor.TYPE_ACCELEROMETER.getType() ) {
+    		
+    		if ( mColorBlobView != null)  {
     		str = "x: " + x.toString();
     		tv = (TextView) findViewById(R.id.x_label);
     		mColorBlobView.setTextView(tv, str);
@@ -164,7 +195,9 @@ public class PhoneStreamingActivity extends Activity implements SensorEventListe
     		str = "z: " + z.toString();
     		tv = (TextView) findViewById(R.id.z_label);
     		mColorBlobView.setTextView(tv, str);
-    	}
+    		}
+    		
+    	}	
 
     }
 

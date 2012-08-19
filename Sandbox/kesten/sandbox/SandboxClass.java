@@ -57,8 +57,10 @@ public class SandboxClass {
 		doSomething(senList);
 		doSomething(SensorEnum.Acc);
 		System.out.println("here");
-		process(senList);
-		
+		process(senList); 
+		for (int i=0; i< SensorEnum.values().length; i++) {
+			System.out.println( (SensorEnum.values())[i].toString());
+		}
 	}
 	
 	public static void doSomething(List<? extends HeaderInterface> list) {

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/collection
+END
+UnmodifiableCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/collection/UnmodifiableCollection.java
+END
+AbstractUntypedCollectionDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/collection/AbstractUntypedCollectionDecorator.java
+END
+SynchronizedCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/collection/SynchronizedCollection.java
+END
+UnmodifiableBoundedCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/collection/UnmodifiableBoundedCollection.java
+END
+CompositeCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/collection/CompositeCollection.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repos/asf/!svn/ver/740367/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/collection/package.html
+END
+PredicatedCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/collection/PredicatedCollection.java
+END
+TransformedCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/collection/TransformedCollection.java
+END
+AbstractCollectionDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/collection/AbstractCollectionDecorator.java
+END

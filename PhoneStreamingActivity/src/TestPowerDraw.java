@@ -3,6 +3,8 @@ import java.util.List;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import junit.framework.TestCase;
+
+import org.krobo.phonestreamingactivity.PhoneSignalManager;
 import org.krobo.phonestreamingactivity.PhoneStreamingActivity;
 
 /**
@@ -29,7 +31,7 @@ public class TestPowerDraw extends TestCase {
 	 * Activities run on separate threads and don't know much bout that yet
 	 */
 	PhoneStreamingActivity mPhoneStreamingActivity = new PhoneStreamingActivity();
-	SensorManager mSensorManager = mPhoneStreamingActivity.mSensorManager;
+	PhoneSignalManager mSignalManager = mPhoneStreamingActivity.mSignalManager;
 	private List<Sensor> mSensorList;
 	
 	/**
@@ -95,7 +97,7 @@ public class TestPowerDraw extends TestCase {
 	protected void setUp() throws Exception {
 		super.setUp();
 	    //  Find out what sensors we have
-	    System.out.println("Available sensors: " + mPhoneStreamingActivity.mAvailableSensorList.toString() );
+	    System.out.println("Available sensors: " + mSignalManager.mAvailableSensorList.toString() );
 	}
 
 	/* (non-Javadoc)

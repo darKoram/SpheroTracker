@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/814061/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/splitmap
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/asf/!svn/ver/751894/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/splitmap/package.html
+END
+TransformedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/814061/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/splitmap/TransformedMap.java
+END
+SplitMapUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/asf/!svn/ver/751894/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/splitmap/SplitMapUtils.java
+END
+AbstractIterableGetMapDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/repos/asf/!svn/ver/814060/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/splitmap/AbstractIterableGetMapDecorator.java
+END

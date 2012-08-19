@@ -1,19 +1,31 @@
 package org.krobo.phonestreamingactivity;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.EnumSet;
 import java.util.List;
+import java.lang.IllegalArgumentException;
+import java.lang.reflect.Array;
+
+import org.apache.commons.collections.*; 
+//import org.apache.commons.collections.CollectionUtils;
 
 import org.krobo.lips.*;
 import org.krobo.lips.core.*;
 import org.krobo.lips.signal.*;
 
 
-
-import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.hardware.Sensor;
+import android.util.Log;
+import android.widget.TextView;
 
 public class PhoneSignalManager extends SignalManager<PhoneSignalManager.PhoneSensor, SensorManager> {
 
+	
 	/*
 	 * These are named to match the Android API, but here they are enums, there ints.
 	 */
@@ -53,22 +65,66 @@ public class PhoneSignalManager extends SignalManager<PhoneSignalManager.PhoneSe
 	}
 	/*
 	 * Rate at which sensor events are sampled.  Still haven't found out how to set this.
+	 * SensorEventListner is promising
 	 */
-	int					mRate;
-	SensorManager 		mSensorManager;
+	int					mRate = SensorManager.SENSOR_DELAY_FASTEST;
+	/*
+	 * Android API sensor manager
+	 */
+	private SensorManager 		mSensorManager;
+	public List<Sensor> 		mAvailableSensorList;
+	private  List<Sensor> 		mActiveSensorList;
+	private String 				TAG = "PhoneSignalManager";
+
 	
-	public PhoneSignalManager(int rate, SensorManager sensorManager) {
-		if(		rate == SensorManager.SENSOR_DELAY_FASTEST ||
-				rate == SensorManager.SENSOR_DELAY_GAME ||
-				rate == SensorManager.SENSOR_DELAY_NORMAL ||
-				rate == SensorManager.SENSOR_DELAY_UI)
-			mRate = rate;
+	public PhoneSignalManager(SensorManager sm, int rate) {
+				mSensorManager = sm;
+				setRate(rate);
+        	}
+	
+	public PhoneSignalManager(SensorManager sensorManager) {
+		mSensorManager = sensorManager;
+	}
+
+	public void setRate(int rateType) {
+		if(		rateType == SensorManager.SENSOR_DELAY_FASTEST ||
+				rateType == SensorManager.SENSOR_DELAY_GAME ||
+				rateType == SensorManager.SENSOR_DELAY_NORMAL ||
+				rateType == SensorManager.SENSOR_DELAY_UI)
+			mRate = rateType;
+		else
+			throw new IllegalArgumentException("rate " + rateType + "must be a SensorManager constant");
+		
+		//TODO set the value in SensorManager or SensorEventListener
 	}
 	@Override
-	protected EnumSet<PhoneSensor> discoverAvailableSensors() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	protected EnumSet<PhoneSensor> discoverAvailableSensors()  {
+		
+		mAvailableSensorList = mSensorManager.getSensorList(Sensor.TYPE_ALL);
+	    Log.i(TAG, "Available Phone Sensors: " + mAvailableSensorList.toString());
+	    final EnumSet<PhoneSensor> allSensors = EnumSet.allOf(PhoneSensor.class);
+	    // check if getType()s match for Sensor and Enum
+	    // 
+	    @SuppressWarnings({ "unchecked", "rawtypes" })
+		EnumSet<PhoneSensor> availablePhoneSensorTypes = 
+	    		(EnumSet<PhoneSensor>) CollectionUtils.collect(
+	    				mAvailableSensorList, new Transformer() 
+	    		{
+	    			public Object transform(Object o) {
+	    				for (PhoneSensor s : allSensors) {
+	    					if(s.getType() == ((PhoneSensor) o).getType() )
+	    						return s;
+	    				}	 
+	    				try {
+							throw new Exception("Phone Sensor " + o + " discovered but not know to signal manager");
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+	    				return null;
+	    		}});
+	    	return availablePhoneSensorTypes;
+	    }
 
 	@Override
 	protected void update(	SensorManager sensorManager,
@@ -97,6 +153,15 @@ public class PhoneSignalManager extends SignalManager<PhoneSignalManager.PhoneSe
 	public Long[] getTimes() {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	public SensorManager getSensorManager() {
+		// TODO Auto-generated method stub
+		return mSensorManager;
+	}
+
+	public void updateSensor(SensorEvent event) {
+	
 	}
 
 }

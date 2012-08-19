@@ -89,39 +89,35 @@
                     android:layout_width="13dp"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/b_label"
-                    android:ems="10"
                     android:text="z" />
 
                 <TextView
-                    android:id="@+id/attitude_label"
+                    android:id="@+id/time_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/c_label"
-                    android:text="Attitude" />
+                    android:text="Time Stats:" />
 
                 <TextView
-                    android:id="@+id/e_label"
-                    android:layout_width="16dp"
+                    android:id="@+id/timestamp_label"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/attitude_label"
-                    android:ems="10"
-                    android:text="x" />
+                    android:layout_below="@+id/time_label"
+                    android:text="time" />
 
                 <TextView
-                    android:id="@+id/f_label"
-                    android:layout_width="13dp"
+                    android:id="@+id/meanTimeStep_label"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/e_label"
-                    android:ems="10"
-                    android:text="y" />
+                    android:layout_below="@+id/timestamp_label"
+                    android:text="mean" />
 
                 <TextView
-                    android:id="@+id/g_label"
-                    android:layout_width="14dp"
+                    android:id="@+id/varianceTimeStep_label"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/f_label"
-                    android:ems="10"
-                    android:text="z" />
+                    android:layout_below="@+id/meanTimeStep_label"
+                    android:text="variance" />
             </RelativeLayout>
         </ScrollView>
 

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/bidimap
+END
+UnmodifiableBidiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/bidimap/UnmodifiableBidiMap.java
+END
+TreeBidiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/bidimap/TreeBidiMap.java
+END
+UnmodifiableSortedBidiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/bidimap/UnmodifiableSortedBidiMap.java
+END
+UnmodifiableOrderedBidiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/bidimap/UnmodifiableOrderedBidiMap.java
+END
+DualTreeBidiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/751871/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/bidimap/DualTreeBidiMap.java
+END
+AbstractBidiMapDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/bidimap/AbstractBidiMapDecorator.java
+END
+AbstractSortedBidiMapDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/bidimap/AbstractSortedBidiMapDecorator.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/asf/!svn/ver/740367/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/bidimap/package.html
+END
+AbstractDualBidiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/asf/!svn/ver/738956/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/bidimap/AbstractDualBidiMap.java
+END
+DualHashBidiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/bidimap/DualHashBidiMap.java
+END
+AbstractOrderedBidiMapDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/repos/asf/!svn/ver/814127/commons/proper/collections/branches/collections_jdk5_branch/src/java/org/apache/commons/collections/bidimap/AbstractOrderedBidiMapDecorator.java
+END
